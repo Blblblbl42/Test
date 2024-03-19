@@ -26,7 +26,6 @@ def upload_form():
             CREATE TABLE Tableau (
                 id SERIAL PRIMARY KEY,
                 nom VARCHAR(255),
-                type VARCHAR(255),
                 craft_1 VARCHAR(255),
                 nombre_1 INT,
                 craft_2 VARCHAR(255),
@@ -43,9 +42,7 @@ def upload_form():
                 nombre_7 INT,
                 craft_8 VARCHAR(255),
                 nombre_8 INT,
-                prix_craft FLOAT,
-                prix_item FLOAT,
-                Bénéfice FLOAT
+                prix_item FLOAT
             )
         """)
         # On valide les modifications
