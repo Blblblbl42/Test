@@ -38,9 +38,11 @@ class MainWindow(QMainWindow):
         quantité_6 = int(self.lineEdit_15.text()) if self.lineEdit_15.text() else 0
         quantité_7 = int(self.lineEdit_16.text()) if self.lineEdit_16.text() else 0
         quantité_8 = int(self.lineEdit_17.text()) if self.lineEdit_17.text() else 0
+        prix_item = int(self.lineEdit_18.text()) if self.lineEdit_18.text() else 0
 
         # Afficher les valeurs récupérées
         print("Nom de la ressource :", nom_ressource)
+        print("Prix de l'item' :", prix_item)
         print("Craft 1 :", craft_1, "Quantité 1 :", quantité_1)
         print("Craft 2 :", craft_2, "Quantité 2 :", quantité_2)
         print("Craft 3 :", craft_3, "Quantité 3 :", quantité_3)
